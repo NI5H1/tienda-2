@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto - Lucio's Dynasty</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="public/logo.jpg" alt="Lucio's Dynasty Logo" class="logo">
+        <ul>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/coleccion.html">Colección</a></li>
+          <li><a href="/ofertas.html">Ofertas</a></li>
+          <li><a href="/contacto.html" class="active">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="contacto">
+      <h2>Contáctanos</h2>
+      <div class="contacto-container">
+        <div class="contacto-info">
+          <h3>Información de Contacto</h3>
+          <p><i class="icon-location"></i> Calle Principal 123, Ciudad</p>
+          <p><i class="icon-phone"></i> (123) 456-7890</p>
+          <p><i class="icon-email"></i> info@LuciosDynasty.com</p>
+          <div class="horario">
+            <h4>Horario de Atención</h4>
+            <p>Lunes a Viernes: 10:00 - 20:00</p>
+            <p>Sábados: 10:00 - 18:00</p>
+            <p>Domingos: Cerrado</p>
+          </div>
+        </div>
+        <form class="contacto-form">
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+          </div>
+          <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Lucio's Dynasty</h3>
+          <p>Tu tienda de moda favorita con las últimas tendencias y los mejores precios.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Contacto</h3>
+          <p>Email: info@LuciosDynasty.com</p>
+          <p>Teléfono: (123) 456-7890</p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="pages.js"></script>
+  </body>
+</html>
